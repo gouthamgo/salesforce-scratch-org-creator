@@ -121,7 +121,7 @@ const ScratchOrgBuilder = () => {
     { name: "WorkflowTask", selected: false, members: [] }
   ]);
   
-  const [workflowSteps, setWorkflowSteps] = useState([
+  const [workflowSteps] = useState([
     { 
       title: "Create SFDX Project", 
       command: "sfdx force:project:create -n MySFDXProject", 
